@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const fs = require('fs');
-// TODO: Create an array of questions for user input
+const generateReadMe= require('./src/page-template.js')
+const {writefile} = require('./utils/generate-README.js')
+//Create an array of questions for user input
 const questions = ()=>{
     return inquirer.prompt([
         {
@@ -42,6 +43,11 @@ const questions = ()=>{
                     return false;
                 }
             }
+        },{
+            type:'input',
+            name:'usage',
+            message:'What is this project used for?',
+            default:true
         },
          {
             type:'input',
@@ -52,14 +58,14 @@ const questions = ()=>{
              },
               {
                 type:'input',
-                name: 'name',
+                name: 'test',
                 message:'What are the test instructions?',
                 default:true
             },{
                 type: 'checkbox',
                 name: 'license',
                 message: 'What licesens do you choose(Choose One)?',
-                choices: ['MIT',]
+                choices: ['MIT', 'GNU', 'Mozilla','Apache','GPLUv3', 'Public','Google']
               },
               {
                 type: 'input',
@@ -101,3 +107,4 @@ const questions = ()=>{
 // // Function call to initialize app
 // init();
 questions()
+    .then
