@@ -1,8 +1,8 @@
 const fs = require('fs')
 
-const writeFile = fileContent => {
+const writeFile = (fileContent) => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/README.md', fileContent, err => {
+        fs.writeFile('./dist/README.md', pageTemplate(fileContent), err => {
             // if an error happens, it will send to catch
             if (err) {
                 reject(err);
@@ -17,4 +17,37 @@ const writeFile = fileContent => {
     });
     });
 };
-module.exports =(writeFile);
+module.exports = writeFile;
+const pageTemplate= templateArr =>{
+    return`
+   
+# ${templateArr.name}
+## Description
+
+${templateArr.description}
+
+## Installation
+
+${templateArr.installation}
+
+## Usage
+
+${templateArr.usage}
+
+## Contritubing 
+
+${templateArr.contribution}
+
+## Test
+
+${templateArr.test}
+
+## License
+
+${templateArr.license}
+
+## Questions
+
+${templateArr.github}
+${templateArr.email}`
+}

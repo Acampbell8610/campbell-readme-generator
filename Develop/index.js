@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const generateReadMe= require('./src/page-template.js')
-const {writefile} = require('./utils/generate-README.js')
+//const generateReadMe= require('./src/page-template.js')
+const  writeFile  = require('./utils/generate-README.js')
+const fs = require('fs')
 //Create an array of questions for user input
 const questions = ()=>{
     return inquirer.prompt([
@@ -95,8 +96,26 @@ const questions = ()=>{
               },
               
     ])
+    .then(projectData => {
+        console.log(projectData)
+       // portfolioData.projects.push(projectData);
+        if (projectData) {
+          
+          return writeFile(projectData);
+        } else {
+          return ;
+        }
+      });
 };
-
+questions()
+    // //.then (promptProject)
+    // .then(projectData =>{
+    //     return generateReadMe(projectData);
+    // })
+    // .then (projectData => {
+    //     return writeFile(projectData)
+    // })
+    
 
 // // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
@@ -106,5 +125,4 @@ const questions = ()=>{
 
 // // Function call to initialize app
 // init();
-questions()
-    .then
+
