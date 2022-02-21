@@ -66,12 +66,12 @@ const questions = ()=>{
                 type: 'checkbox',
                 name: 'license',
                 message: 'What licesens do you choose(Choose One)?',
-                choices: ['MIT', 'GNU', 'Mozilla','Apache','GPLUv3', 'Public','Google']
+                choices: ['MIT', 'Boost', 'Mozilla','Apache']
               },
               {
                 type: 'input',
                 name: 'github',
-                message: 'Enter your GitHub link.',
+                message: 'Enter your GitHub account.',
                 validate: linkInput => {
                   if (linkInput) {
                     return true;
