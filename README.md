@@ -17,6 +17,8 @@
 
 This is readme generator. The comand prompt presents you questions to fill out information before generating the README file.
 
+[Instructional Video](./video.webm)
+
 ## Technology:
 * HTML
 * Javascript
@@ -31,7 +33,7 @@ To install this projects locally use git bash (https://github.com/Acampbell8610/
 
 This project is for anyone creating a README file
 
-## Contritubing: 
+## Contributing: 
 
 - https://www.w3schools.com
 - Screencastify
