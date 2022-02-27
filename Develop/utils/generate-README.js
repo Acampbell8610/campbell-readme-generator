@@ -32,13 +32,13 @@ const generateLicense = license => {
     }}
     const generateBadge = license => {
         if (license == "MIT") {
-          return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://mit-license.org/)';
+          return '[![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://mit-license.org/)';
         } else if (license == "Boost"){
-        return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+        return "[![License](https://img.shields.io/badge/License-Boost_1.0-important.svg)](https://www.boost.org/LICENSE_1_0.txt)";
         }  else if (license == "Mozilla") {
-            return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+            return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-informational.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
         } else if (license == "Apache") {
-            return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.txt)"
+            return "[![License](https://img.shields.io/badge/License-Apache_2.0-critical.svg)](https://www.apache.org/licenses/LICENSE-2.0.txt)"
         }else{
             return 
         }}
@@ -57,35 +57,35 @@ ${generateBadge(templateArr.license)}
 4. [Contributing](#Contributing)
 5. [Test](#Test)
 6. [License](#License)
-7. [Questions](#Questions)
+7. [ Questions. ](#Questions)
 
 
-## Description
+## Description:
 
 ${templateArr.description}
 
-## Installation
+## Installation:
 
 ${templateArr.installation}
 
-## Usage
+## Usage:
 
 ${templateArr.usage}
 
-## Contritubing 
+## Contritubing: 
 
 ${templateArr.contribution}
 
-## Test
+## Test:
 
 ${templateArr.test}
 
-## License
+## License:
 
 ${generateLicense(templateArr.license)}
 
 
-## Questions
+## Questions:
 
 * https://github.com/${templateArr.github}, 
 * ${templateArr.email}`

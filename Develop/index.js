@@ -108,21 +108,5 @@ const questions = ()=>{
       });
 };
 questions()
-    // //.then (promptProject)
-    // .then(projectData =>{
-    //     return generateReadMe(projectData);
-    // })
-    // .then (projectData => {
-    //     return writeFile(projectData)
-    // })
-    
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
 

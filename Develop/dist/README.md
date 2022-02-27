@@ -1,8 +1,8 @@
 
 
-# dsgsdg
+# Readme-Generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+undefined
 
 ## Table of Contents
 1. [Description](#Description)
@@ -11,35 +11,35 @@
 4. [Contributing](#Contributing)
 5. [Test](#Test)
 6. [License](#License)
-7. [Questions](#Questions)
+7. [ Questions. ](#Questions)
 
 
-## Description
+## Description:
 
-dfgdf
+This project creates a ReadMe file
 
-## Installation
+## Installation:
 
-dfgfd
+install using Github
 
-## Usage
+## Usage:
 
-dfgdf
+THis priject is used to create a ReadMe file easier
 
-## Contritubing 
+## Contritubing: 
 
-dfhg
+contribute using github
 
-## Test
+## Test:
 
-dfgh
+run node index in the command line to test
 
-## License
+## License:
 
-MIT License -https://mit-license.org/ - A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+No license listed.
 
 
-## Questions
+## Questions:
 
-* https://github.com/dfg, 
-* dfhg
+* https://github.com/	, 
+* acampbell8610@gmail.com
