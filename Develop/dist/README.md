@@ -1,6 +1,6 @@
 
 
-# campbell-readme-generator
+# Readme Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://mit-license.org/)
 
@@ -16,23 +16,23 @@
 
 ## Description:
 
-This is readme generator. The comand prompt presents you questions to fill out information before generating the README file.
+it generates readme files
 
 ## Installation:
 
-To install this projects locally use git bash (https://github.com/Acampbell8610/alex-campbell-weather-forcast)
+clone repository from github
 
 ## Usage:
 
-This project is for anyone creating a README file
+to generate an easy readme file
 
 ## Contritubing: 
 
-credits
+contribute using guthub
 
 ## Test:
 
-Test in command prompt by running node index.
+type node index into the command prompt
 
 ## License:
 
@@ -42,4 +42,4 @@ MIT License -https://mit-license.org/ - A short and simple permissive license wi
 ## Questions:
 
 * https://github.com/Acampbell8610, 
-* Acampbell8610@gmail.com
+* acampbell8610@gmail.com
